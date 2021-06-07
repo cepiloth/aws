@@ -127,3 +127,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+ObjectDetector/Website/script.js
+ObjectDetector/Capabilities/app.py

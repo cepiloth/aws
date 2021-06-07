@@ -1,7 +1,6 @@
 "use strict";
 
-//!-- uid 설정
-const serverUrl = "";
+const serverUrl = "https://6e6qfgnlf4.execute-api.ap-northeast-2.amazonaws.com/api";
 
 function runDemo() {
     fetch(serverUrl + "/demo-object-detection", {
