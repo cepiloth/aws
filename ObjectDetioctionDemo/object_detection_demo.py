@@ -6,7 +6,7 @@ storage_service = StorageService()
 recognition_service = RecognitionService()
 
 #자신이 만든 S3 버킷 주소를 설정한다
-bucket_name = ''
+bucket_name = 'content.demian.her'
 
 for file in storage_service.get_all_files(bucket_name):
     if file.key.endswith('.jpeg'):
