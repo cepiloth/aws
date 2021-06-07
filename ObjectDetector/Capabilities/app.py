@@ -14,7 +14,7 @@ app.debug = True
 #####
 # 서비스 초기화
 #####
-storage_location = 'content.demian.her'
+storage_location = ''
 storage_service = storage_service.StorageService(storage_location)
 recognition_service = recognition_service.RecognitionService(storage_service)
 

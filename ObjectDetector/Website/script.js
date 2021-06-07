@@ -1,6 +1,6 @@
 "use strict";
 
-const serverUrl = "https://6e6qfgnlf4.execute-api.ap-northeast-2.amazonaws.com/api";
+const serverUrl = ""
 
 function runDemo() {
     fetch(serverUrl + "/demo-object-detection", {
